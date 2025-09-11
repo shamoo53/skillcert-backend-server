@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { LoggerModule } from '../logger.module';
-import { CentralizedLoggerService } from '../services/centralized-logger.service';
+import { LoggerModule } from './logger.module';
+import { CentralizedLoggerService } from './services/centralized-logger.service';
 
 describe('LoggerModule', () => {
   let module: TestingModule;
